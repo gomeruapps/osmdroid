@@ -5,22 +5,22 @@ rootProject.name = 'osmdroid-parent'
 
 //libraries
 include ':osmdroid-android'
-include ':osmdroid-mapsforge'
+//include ':osmdroid-mapsforge'
 include ':osmdroid-geopackage'
-include ':osmdroid-wms'
-include ':osmdroid-shape'
+//include ':osmdroid-wms'
+//include ':osmdroid-shape'
 
 //sample apps
-include ':OpenStreetMapViewer'
+//include ':OpenStreetMapViewer'
 
-include ':osmdroid-simple-map'
+//include ':osmdroid-simple-map'
 
 //jdk specific tools and applications
-include ':OSMMapTilePackager'
-include ':osmdroid-server-jdk'
+//include ':OSMMapTilePackager'
+//include ':osmdroid-server-jdk'
 
 //dist package
-include ':osmdroid-dist'
+//include ':osmdroid-dist'
 
 //Sunset projects (Deprecated) 
 //include ':osmdroid-third-party'
