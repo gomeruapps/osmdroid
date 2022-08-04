@@ -1,6 +1,9 @@
 description = 'An Android library to display OpenStreetMap views.'
 apply plugin: 'com.android.library'
-apply from: "https://raw.githubusercontent.com/gradle-fury/gradle-fury/v1.1.4/gradle/android-support.gradle"
+apply plugin: "maven-publish"
+
+group = project.property("pom.groupId")
+version =  project.property("pom.version")
 
 android {
     lintOptions {
