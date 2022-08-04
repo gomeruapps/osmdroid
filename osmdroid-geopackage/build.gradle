@@ -49,8 +49,7 @@ dependencies {
     }
 
     compile 'com.j256.ormlite:ormlite-android:5.0'
-    //compile 'mil.nga.geopackage:geopackage-core:2.0.1'
-    compile 'com.github.gomeruapps:geopackage-android:2.0.3'
+    compile 'mil.nga.geopackage:geopackage-core:2.0.1'
     compile 'ar.com.hjg:pngj:2.1.0'
     compile 'mil.nga:tiff:1.0.3'
 
